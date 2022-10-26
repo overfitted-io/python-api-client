@@ -4,7 +4,7 @@ setup(
     name='overfitted-io-client',
     version='0.1.0',    
     description='A client for the API hosted at overfitted.io',
-    url='n/a',
+    url='https://github.com/overfitted-io/python-api-client',
     author='Dan Sporici',
     author_email='dan@overfitted.io',
     license='BSD 2-clause',
