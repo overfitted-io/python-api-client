@@ -57,3 +57,7 @@ For a list of parameters names (inside the `inputs` variable), check each servic
 **Note:** providing a list of input images to the `query_service()` function enables the use of multiple parallel connections which facilitates better throughput.
 
 
+## Problems / Bugs
+
+Please open a GitHub issue if there are any problems with this module.
+Also, take into account that the services on overfitted.io are in active development; implementing feedback from collaborators can introduce new parameters or modifications in the response's format.
