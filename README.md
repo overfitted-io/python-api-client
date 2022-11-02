@@ -31,7 +31,7 @@ export OVERFITTED_IO_API_KEY=123456789abcdef
 import overfitted_io_client as oc
 
 # should display your account information and API key
-print(oc.get_account_info([{ 'api_key' : config.get_api_key() }]))
+print(oc.get_account_info([{ 'api_key' : oc.config.get_api_key() }]))
 ```
 
 
@@ -43,7 +43,7 @@ import overfitted_io_client as oc
 
 img = open('my_img.jpg', 'rb')
 
-result = oc.query_service('glyph', inputs = [{ 'img' : img, 'lang' : 'en-ma', 'api_key' : config.get_api_key()}])
+result = oc.query_service('glyph', inputs = [{ 'img' : img, 'lang' : 'en-ma', 'api_key' : oc.config.get_api_key()}])
 
 # [({ "text": "Some random text found within the image", ...}, 200)]
 print(result)
